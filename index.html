@@ -216,6 +216,7 @@
     .stat-box,
     .project-card,
     .resume-card,
+    .notice-card,
     .contact-panel {
       padding: 20px;
       border: 1px solid var(--line);
@@ -299,6 +300,21 @@
       padding: 12px 14px;
       border: 1px solid var(--line);
       background: rgba(255, 255, 255, 0.02);
+    }
+
+    .notice-card {
+      margin-top: 24px;
+      background: linear-gradient(135deg, rgba(255, 126, 182, 0.14), rgba(89, 225, 255, 0.14));
+      border-color: rgba(255, 209, 102, 0.42);
+      text-align: center;
+    }
+
+    .notice-card p {
+      color: var(--text);
+      font-family: "Press Start 2P", monospace;
+      font-size: clamp(0.78rem, 1.6vw, 0.98rem);
+      line-height: 1.9;
+      text-transform: uppercase;
     }
 
     .contact-panel {
@@ -494,6 +510,12 @@
             <span>Available through direct email for freelance conversations.</span>
           </div>
         </div>
+      </section>
+
+      <section class="notice-card" aria-label="AI generation notice">
+        <p>
+          All of this shit is AI generated using Codex except for my photo, my resume, and my socials.
+        </p>
       </section>
 
       <section class="contact-panel" id="contact">
