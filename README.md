@@ -4,6 +4,6 @@ Minimal GitHub Pages website for showcasing engineering work and inviting freela
 
 ## Contact
 
-- Email: `roha1234@gmail.com`
+- Email: `rohan.katkam98@gmail.com`
 - GitHub: `https://github.com/rbvk-services`
-- LinkedIn: update the placeholder link in `index.html`
+- LinkedIn: `https://www.linkedin.com/in/rohan-katkam/`
